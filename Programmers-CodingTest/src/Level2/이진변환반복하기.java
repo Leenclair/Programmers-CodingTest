@@ -1,14 +1,9 @@
 package Level2;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class 이진변환반복하기 {
 	static class Solution {
 		public int[] solution(String s) {
 			int[] answer = new int[2];
-			int cnt = 0;
-			int cnt2 = 0;
 			
 			while(!s.equals("1")) {
 				answer[0]++;
