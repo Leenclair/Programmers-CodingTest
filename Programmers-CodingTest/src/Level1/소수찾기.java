@@ -16,6 +16,18 @@ public class 소수찾기 {
 				if(flag == true) answer++;
 			}
 			
+//			for(int i=2; i<=n; i++) {
+//				answer++;
+//				int count = 2;
+//				while(count < i) {
+//					if(i%count==0) {
+//						answer--;
+//						break;
+//					}
+//					count++;
+//				}
+//			}
+			
 			return answer;
 		}
 	}
